@@ -1,0 +1,14 @@
+# Application
+src/boom
+src/configure
+src/config.status
+src/Makefile
+src/*.log
+src/*.o
+src/*.cache
+
+# Editor
+.idea/
+\#*\#
+.\#*
+*~

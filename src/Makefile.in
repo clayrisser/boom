@@ -1,0 +1,10 @@
+CXX=@CXX@
+LD=@CXX@
+CXXFLAGS=@CXXFLAGS@
+
+boom: boom.o
+	$(LD) -o $@ $^
+
+.PHONY: clean
+clean:
+	@rm -rf boom configure config.status Makefile *.log *.o *.cache
