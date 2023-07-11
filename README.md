@@ -2,6 +2,8 @@
 
 Experimental GNU C/C++ development
 
+![](assets/boom.png)
+
 ## Setup
 
 ```sh
